@@ -1,5 +1,6 @@
 # soraros
 1(Jul 24)
+
     -openCV환경갖추기 : 
     vscode와github연결(나는로컬말고코드스페이스 -> c_cpp_properties.jason & settings.jason만들어openCV헤더와연결) / gitigore에특정단어를입력하면안보이게할수있다(install/)  
     
@@ -13,6 +14,7 @@
     3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname)
 
 1(Jul 24)
+
     -openCV setting :
     made vscode to enable github commit locally(but chose githubcodespace) // made c_cpp_properties.jason and settings.jason files in a folder ; openCV header setting / .gitigore allows user to hide certain files(install/) / 
 
