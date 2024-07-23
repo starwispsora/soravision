@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "soraros",
+            "includePath": [
+                "/workspace/soraros/**"
+            ],
+            
+        }
+    ],
+    
+}
