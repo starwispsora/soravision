@@ -3,10 +3,16 @@
         {
             "name": "soraros",
             "includePath": [
-                "/workspace/soraros/**"
+                "${workspaceFolder}/**",
+                "/usr/include/opencv4",
+                "/usr/include/opencv4/opencv2"
             ],
-            
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
-    
+    "version": 4
 }

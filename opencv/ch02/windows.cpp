@@ -3,7 +3,7 @@
 using namespace std;
 using namespace cv;
 
-string folder = "/home/aa/kdta_ROS2/opencv/data/";
+string folder = "/workspaces/soraros/opencv/data/";
 
 int main()
 {
@@ -19,6 +19,6 @@ int main()
     destroyWindow("lena");
     imshow("lena", img);
     // resizeWindow("lena", size);
-    waitKey(0);
+    waitKey(2000);
     return 0;
 }
