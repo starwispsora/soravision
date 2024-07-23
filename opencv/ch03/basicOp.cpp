@@ -3,7 +3,7 @@
 
 using namespace cv;
 
-String folder = "/workspaces/soraros/opencv/data/";
+String folder = "/workspaces/soravision/opencv/data/";
 
 int main()
 {
