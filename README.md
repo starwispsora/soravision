@@ -1,5 +1,5 @@
 # soravision
-1(Jul 24)
+##### 1(Jul 24)
 
     -openCV환경갖추기 : 
     vscode와github연결
@@ -33,7 +33,7 @@
     cv::imwrite("output.jpg", img); 
     std::cout << "Image saved to output.jpg" << std::endl;
     3)add a new folder('install' here) and compile, run(cmake.. -> make -> ./targetname)
-
+***
 
 
 
