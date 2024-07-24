@@ -5,7 +5,7 @@
     vscode와github연결
     (나는로컬말고코드스페이스 -> c_cpp_properties.jason & settings.jason만들어openCV헤더와연결) 
     /gitigore에특정단어를입력하면그파일은무시하겠다(install/ -local또는클라우드작업공간에서파일을push,pull할때또는개인정보,API등)
-    - 간단한그림보이기(나는헤드레스로저장)테스트개념 :
+- 간단한그림보이기(나는헤드레스로저장)테스트개념 :
     1)컴파일할떄를위한CMakelist.txt.만들어패키지와타켓쓴다
     컴파일명령어가너무어지는것을방지하기위해나누는명령어 : cmake.. -> make -> ./targetfilename
     2)이미지파일준비하고아래코드에삽입
