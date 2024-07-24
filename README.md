@@ -26,9 +26,7 @@
    - //cv::imshow("image", img); <br>
    - //cv::waitKey(0); <br>
    - cv::imwrite("output.jpg", img); <br>
-   - std::cout << "Image saved to output.jpg" << std::endl; <br>
-
-   
+   - std::cout << "Image saved to output.jpg" << std::endl;
 3)add a new folder('install' here) and compile, run(cmake.. -> make -> ./targetname) 
  
 
