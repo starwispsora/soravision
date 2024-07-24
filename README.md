@@ -13,7 +13,8 @@
     - //cv::waitKey(0); <br>
     - cv::imwrite("output.jpg", img); <br>
     - std::cout << "Image saved to output.jpg" << std::endl; <br>
-  3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname) <br>
+  
+3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname) <br>
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
     -  made c_cpp_properties.jason and settings.jason files in a folder ; openCV header setting <br>
