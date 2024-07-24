@@ -15,8 +15,8 @@
       > std::cout << "Image saved to output.jpg" << std::endl;
     3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname)
 - openCV setting :
-    > made vscode to enable github commit locally(but chose githubcodespace) 
-    > made c_cpp_properties.jason and settings.jason files in a folder ; openCV header setting 
+    -  made vscode to enable github commit locally(but chose githubcodespace) 
+    -  made c_cpp_properties.jason and settings.jason files in a folder ; openCV header setting 
 - .gitigore : certain files to be ignore(install/ - for protecting sensitive info)
 - image printing test(but chose headless mode = save image) :
      1)add CMakelist.txt folder ; lists including aimed target and package needed for compiling.
