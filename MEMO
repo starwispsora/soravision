@@ -3,11 +3,14 @@
 
 using namespace cv;
 using namespace std;
-
 String folder = "/workspaces/soravision/opencv/data/";
 
 int main()
 {
+
+return 0;
+}
+
 
 
     using namespace cv;
