@@ -7,7 +7,7 @@
 - 간단한그림보이기(나는헤드레스로저장)테스트개념 : <br>
     1)컴파일할떄를위한CMakelist.txt.만들어패키지와타켓쓴다 
        컴파일명령어가너무어지는것을방지하기위해나누는명령어 : 
-  cmake.. -> make -> ./targetfilename
+  cmake.. -> make -> ./targetfilename <br>
     2)이미지파일준비하고아래코드에삽입 <br>
        //cv::imshow("image", img); <br>
        //cv::waitKey(0); <br>
@@ -23,10 +23,10 @@
     use compiliar commands seperately to prevent overly longer command. 
     cmake.. -> make -> ./targetfilename <br>
      2)preparing image file and its path. -> write code includes them <br>
-      >//cv::imshow("image", img); <br>
-      >//cv::waitKey(0); <br>
-      >cv::imwrite("output.jpg", img); <br>
-      >std::cout << "Image saved to output.jpg" << std::endl; <br>
+      //cv::imshow("image", img); <br>
+      //cv::waitKey(0); <br>
+      cv::imwrite("output.jpg", img); <br>
+      std::cout << "Image saved to output.jpg" << std::endl; <br>
      3)add a new folder('install' here) and compile, run(cmake.. -> make -> ./targetname)
  
 
