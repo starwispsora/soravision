@@ -23,10 +23,10 @@
     use compiliar commands seperately to prevent overly longer command. 
     cmake.. -> make -> ./targetfilename <br>
      2)preparing image file and its path. -> write code includes them <br>
-      //cv::imshow("image", img); <br>
-      //cv::waitKey(0); <br>
-      cv::imwrite("output.jpg", img); <br>
-      std::cout << "Image saved to output.jpg" << std::endl; <br>
+   - //cv::imshow("image", img); <br>
+   - //cv::waitKey(0); <br>
+   - cv::imwrite("output.jpg", img); <br>
+   - std::cout << "Image saved to output.jpg" << std::endl; <br>
      3)add a new folder('install' here) and compile, run(cmake.. -> make -> ./targetname)
  
 
