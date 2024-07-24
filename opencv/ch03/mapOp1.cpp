@@ -7,7 +7,7 @@ String folder = "/workspaces/soravision/opencv/data/";
 
 int main()
 {
-    // matrix Operation1 constructor 예제
+    // matrix Operation1 constructor example
     Mat img1;
     img1 = Scalar(10,  0,  0);
     Mat img2(400, 600, CV_8UC1); //p79
