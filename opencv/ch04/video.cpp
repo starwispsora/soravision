@@ -43,4 +43,10 @@ int main()
         //imwrite("reshape.jpg", reshapeFrame);
 
         outputVideo << frame;
-        if (waitKey(delay) == 
+        if (waitKey(delay) == 27)
+            break;
+    }
+    cap.release();
+    outputVideo.release();
+    return 0;
+}

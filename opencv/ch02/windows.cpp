@@ -20,4 +20,5 @@ int main()
     imshow("lena", img);
     // resizeWindow("lena", size);
     waitKey(2000);
-    ret
+    return 0;
+}

@@ -17,4 +17,5 @@ int main()
         cout << "aaa" << endl;
         moveWindow("lena", 50, 0);
     }
-    ret
+    return 0;
+}

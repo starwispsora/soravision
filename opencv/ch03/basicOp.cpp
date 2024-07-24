@@ -26,4 +26,5 @@ int main()
     std::cout << sz2 << std::endl;
     std::cout << sz1.area() << "size2: " << sz2.area() << std::endl;
 
-    ret
+    return 0;
+}
