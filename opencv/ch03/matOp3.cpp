@@ -7,12 +7,12 @@ String folder = "/workspaces/soravision/opencv/data/";
 
 int main()
 {
-    //<matrix operation 3 : roi>
+    //<matrix operation3 : roi>
     Mat img1 = imread(folder + "lena.bmp");
     Rect rc(220, 120, 200, 200); 
-    Mat img2 = img1(rc); // /?shallow copy, roi
-    Mat img3 = img1(rc).clone();  //deep copy, new image
-
+    Mat img2 = img1(rc); // shallow copy, roi
+    Mat img3 = img1(rc).clone();  // deep copy, new image
+   
     img2 = ~img2; //invert
     img1.setTo(Scalar(0, 255, 255), img2); //setTo yellow
 

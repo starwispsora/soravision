@@ -1,0 +1,21 @@
+#include "opencv2/opencv.hpp"
+#include <iostream>
+
+using namespace cv;
+using namespace std;
+
+String folder = "/workspaces/soravision/opencv/data/";
+
+int main()
+{
+
+
+    using namespace cv;
+    using namespace std;
+    //cv::imshow("image", img); 
+    //cv::waitKey(0); 
+    imwrite("output.jpg", img); 
+    cout << "Image saved to output.jpg" << endl;
+
+    cv::imwtite("output.jpg", img);
+    std::cout << "Image saved to output.jpg" << std::endl; 
