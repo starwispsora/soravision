@@ -25,5 +25,4 @@ int main()
     cv::imwrite("output5.jpg", img5);
     cv::imwrite("output6.jpg", img6);
 
-    return 0;
-}
+    ret

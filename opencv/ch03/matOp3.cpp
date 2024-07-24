@@ -22,5 +22,4 @@ int main()
     cv::imwrite("output333.jpg", img3);  
     //waitKey(0);
 
-    return 0;
-}
+    retu

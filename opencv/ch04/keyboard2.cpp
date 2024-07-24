@@ -65,4 +65,5 @@ int main()
         tm2.stop();
         cout << "tm2.getFPS(): " << tm2.getFPS() << endl;
     }
-    retu
+    return 0;
+}

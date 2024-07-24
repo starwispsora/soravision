@@ -23,5 +23,4 @@ int main()
     cout << "mat2 : \n" << mat2 << endl;
     delete data2; //delete dynamic memory allocation(heap)
 
-    return 0;
-}
+    ret

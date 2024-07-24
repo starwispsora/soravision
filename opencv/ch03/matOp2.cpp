@@ -31,5 +31,4 @@ int main()
     cv::imwrite("output55.jpg", img5);
     //waitKey(0);
 
-    return 0;
-}
+    ret

@@ -24,5 +24,4 @@ int main() //p143, p146, p150, p151 +add textbook code
 
     imwrite("rectangleTest.jpg", img); //save image
 
-    return 0;
-}
+    ret
