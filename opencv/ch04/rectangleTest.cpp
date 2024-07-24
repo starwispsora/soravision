@@ -3,7 +3,7 @@
 
 using namespace cv;
 using namespace std;
-String folder = "/workspaces/soravision/opencv/data/";
+String folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 int main() //p143, p146, p150, p151 +add textbook code
 {

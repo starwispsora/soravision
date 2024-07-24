@@ -3,7 +3,7 @@
 
 using namespace cv;
 using namespace std;
-String folder = "/workspaces/soravision/opencv/data/";
+String folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 
 int main()
@@ -35,17 +35,17 @@ int main()
             break;
         resize(frame, doubleFrame, sz1 * 2);
         reshapeFrame = frame.reshape(3,cap.get(CAP_PROP_FRAME_HEIGHT * 2)); 
-        //imshow("frame", frame);
-        imwrite("frame.jpg", frame);
-        imwrite("doubleFrame.jpg", doubleFrame);
-        imwrite("reshape.jpg", reshapeFrame);
+        imshow("frame", frame);
+        imshow("doubleframe", doubleFrame);
+        imshow("rashape", reshapeFrame);
+        //imwrite("frame.jpg", frame);
+        //imwrite("doubleFrame.jpg", doubleFrame);
+        //imwrite("reshape.jpg", reshapeFrame);
 
         outputVideo << frame;
-
         if (waitKey(delay) == 27)
             break;
     }
-    
     cap.release();
     outputVideo.release();
     return 0;

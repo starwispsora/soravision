@@ -3,9 +3,7 @@
 
 using namespace cv;
 using namespace std;
-String folder = "/workspaces/soravision/opencv/data/";
-cv::Mat img2; //<<<<<<<<<<<
-int img; //<<<<<<<<<<<
+String folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 int main() //p143, p146, p150, p151 +add textbook code
 {
@@ -15,16 +13,14 @@ int main() //p143, p146, p150, p151 +add textbook code
     Scalar green = Scalar(0, 255, 0);
     Scalar red = Scalar(0, 0, 255);
     Mat img = imread(folder + "lenna.bmp"); //white colored image
+    Mat img2;
     int keycode;
 
     namedWindow("img");
     imwrite("keyboard.jpg", img); //save image
     int fps = 30;
-   
-
-
     int delay = cvRound(1000 / 30);
-    Scalar a;
+    Scalar a(0, 0, 0);
 
     while (true)
     {
@@ -35,16 +31,15 @@ int main() //p143, p146, p150, p151 +add textbook code
             break;
         if (keycode == 'i' || keycode == 'I')
         {
-            //img = imread(folder + "lenna.bmp");
-            //imshow("img", img);
             img = ~img;
-            imwrite("keyboard2.jpg", img); //<<<<<<<<<<<
+            imshow("img", img);
+            //imwrite("keyboard2.jpg", img); //<<<<<<<<<<<
         }
         if (keycode == 'a' || keycode == 'A')
         {
             a = a + Scalar(1, 1, 1);
             img2 = img +a;
-            imwrite("keyboard3.jpg", img2);
+            imshow("img", img2);
         }
         if (keycode == 'b' || keycode == 'B')
         {

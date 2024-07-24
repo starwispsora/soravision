@@ -5,7 +5,7 @@
 
 using namespace cv;
 using namespace std;
-String folder = "/workspaces/soravision/opencv/data/";
+String folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 int main() 
 {
@@ -65,5 +65,4 @@ int main()
         tm2.stop();
         cout << "tm2.getFPS(): " << tm2.getFPS() << endl;
     }
-    return 0;
-}
+    retu
