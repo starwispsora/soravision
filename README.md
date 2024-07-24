@@ -5,14 +5,14 @@
     - vscode와github연결(나는로컬말고코드스페이스 -> c_cpp_properties.jason & settings.jason만들어openCV헤더와연결) <br>
     - gitigore에특정단어를입력하면그파일은무시하겠다(install/ -local또는클라우드작업공간에서파일을push,pull할때또는개인정보,API등) <br>
 - 간단한그림보이기(나는헤드레스로저장)테스트개념 : <br>
-    1)컴파일할떄를위한CMakelist.txt.만들어패키지와타켓쓴다 <br>
-       컴파일명령어가너무어지는것을방지하기위해나누는명령어 : <br>
+    1)컴파일할떄를위한CMakelist.txt.만들어패키지와타켓쓴다 
+       컴파일명령어가너무어지는것을방지하기위해나누는명령어 : 
   cmake.. -> make -> ./targetfilename
     2)이미지파일준비하고아래코드에삽입 <br>
-      > //cv::imshow("image", img); <br>
-      > //cv::waitKey(0); <br>
-      > cv::imwrite("output.jpg", img); <br>
-      > std::cout << "Image saved to output.jpg" << std::endl; <br>
+       //cv::imshow("image", img); <br>
+       //cv::waitKey(0); <br>
+       cv::imwrite("output.jpg", img); <br>
+       std::cout << "Image saved to output.jpg" << std::endl; <br>
     3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname) <br>
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
