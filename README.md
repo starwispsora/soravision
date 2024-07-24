@@ -9,10 +9,10 @@
        컴파일명령어가너무어지는것을방지하기위해나누는명령어 : 
   cmake.. -> make -> ./targetfilename <br>
     2)이미지파일준비하고아래코드에삽입 <br>
- - //cv::imshow("image", img); <br>
- - //cv::waitKey(0); <br>
- - cv::imwrite("output.jpg", img); <br>
- - std::cout << "Image saved to output.jpg" << std::endl; <br>
+    - //cv::imshow("image", img); <br>
+    - //cv::waitKey(0); <br>
+    - cv::imwrite("output.jpg", img); <br>
+    - std::cout << "Image saved to output.jpg" << std::endl; <br>
     3)따로폴더(install)를만들어들어가컴파일(cmake.. -> make)한후타켓실행(./targetname) <br>
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
