@@ -1,6 +1,6 @@
 # soravision
 ***
- 1(Jul 24)
+ 1(Jul 24) /n
   -openCV환경갖추기 : 
     vscode와github연결
     (나는로컬말고코드스페이스 -> c_cpp_properties.jason & settings.jason만들어openCV헤더와연결) 
