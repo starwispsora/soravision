@@ -20,7 +20,6 @@ int main()
     //cv::imshow("image", img2); 
     //cv::waitKey(0); 
     cv::imwrite("output2.jpg", img2); 
-    std::cout << "Image saved to output.jpg" << std::endl;
     cv::imwrite("output3.png", img3);
     cv::imwrite("output4.bmp", img4);
     cv::imwrite("output5.jpg", img5);
