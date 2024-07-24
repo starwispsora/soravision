@@ -32,7 +32,7 @@
 
   
 ***
-#### 2(Jul 24) opencv-ch03 / ch04
+#### 2(Jul 24) opencv- ch03 / ch04
 - CMake : pack of orders/rules user would write. work as a translator among team members who use different tools
 - matrix : Mat img2(rows, cols, type); //Mat img2(400, 600, CV_8UC1);
 - text : putText(image, text, origin, fontFace, fontScale, color, thickness, lineType, bottomLeftOrigin); //putText(img, "font", Point(20, 150), FONT_HERSHEY_PLAIN, 1, red);
