@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-std::string folder = "/workspaces/soravision/opencv/data/";
+std::string folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 int main()
 {

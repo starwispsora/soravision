@@ -3,7 +3,7 @@
 using namespace std;
 using namespace cv;
 
-string folder = "/workspaces/soravision/opencv/data/";
+string folder = "/Users/sora/Desktop/soravision/opencv/data/";
 
 int main()
 {
