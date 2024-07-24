@@ -1,4 +1,4 @@
-# soraros
+# soravision
 1(Jul 24)
 
     -openCV환경갖추기 : 
