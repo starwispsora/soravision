@@ -45,8 +45,8 @@ int main()
         if (waitKey(delay) == 27)
             break;
     }
-
-        cap.release();
-        outputVideo.release();
-        return 0;
+    
+    cap.release();
+    outputVideo.release();
+    return 0;
 }
