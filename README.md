@@ -1,6 +1,6 @@
-#### soravision
-#### 1(Jul 23) opencv- first / ch02 / ch03
-#### 2(Jul 24) opencv- ch03 / ch04
+##### soravision
+##### 1(Jul 23) opencv- first / ch02 / ch03
+##### 2(Jul 24) opencv- ch03 / ch04
 ***
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
