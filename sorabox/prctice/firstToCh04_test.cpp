@@ -3,10 +3,12 @@
 using namespace cv;
 using namespace std;
 String folder = "/Users/sora/Desktop/soravision/opencv/data/";
+//main = entry point
+
 
 //0.tilted lenna image
-    void rotateImage()
-    {
+void rotateImage()
+{
     Rect rc1;
     rc1.x = 1;
     rc1.y = 1;
@@ -21,7 +23,7 @@ String folder = "/Users/sora/Desktop/soravision/opencv/data/";
     rr1.points(pts);
     std::cout << pts[0] << std::endl;
     std::cout << pts[1] << std::endl;
-    }
+}
 
 int main()
 {

@@ -12,7 +12,7 @@ int main() //p143, p146, p150, p151 +add textbook code
     Scalar blue = Scalar(255, 0, 0);
     Scalar green = Scalar(0, 255, 0);
     Scalar red = Scalar(0, 0, 255);
-    Mat img = imread(folder + "lenna.bmp"); //white colored image
+    Mat img = imread(folder + "lenna.bmp"); 
     Mat img2;
     int keycode;
 
@@ -33,7 +33,7 @@ int main() //p143, p146, p150, p151 +add textbook code
         {
             img = ~img;
             imshow("img", img);
-            //imwrite("keyboard2.jpg", img); //<<<<<<<<<<<
+            //imwrite("keyboard2.jpg", img); 
         }
         if (keycode == 'a' || keycode == 'A')
         {
