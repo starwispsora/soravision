@@ -16,4 +16,14 @@ int main()
     {
         cerr << "File open failed!" << endl;
         return 1;
-  
+    }
+    fs["name"] >> name; 
+    fs["mat1"] >> img; 
+    fs.release();
+
+    cout << name << endl;
+    imshow("img", img);
+    waitKey(0);
+
+    return 0;
+}
