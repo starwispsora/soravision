@@ -73,17 +73,17 @@ int histSize = 256; // Number of bins
 float range[] = {0, 256}; // Range of pixel values
 const float* histRange = {range};
 calcHist(&img, 1, 0, Mat(), hist, 1, &histSize, &histRange);
-
 // Display histogram (code to plot histogram not included)
 
 <br>
 
-- logical arithmetics/boolean :<br>
+- bitwise :<br>
 // Example: Perform bitwise AND between two images
 Mat img1, img2, result;
 bitwise_and(img1, img2, result);
 
 <br>
+***
 
 - bilateral filter :<br>
 Mat filteredImage;
