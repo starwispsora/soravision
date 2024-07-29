@@ -63,7 +63,9 @@
 // Example: Increase brightness by adding a constant value to each pixel
 Mat brightenedImage;
 img.convertTo(brightenedImage, -1, 1, 50); // alpha=1 (no scaling), beta=50 (brightness increase)
+
 <br>
+
 - histogram : <br>
 // Compute histogram for a grayscale image
 Mat hist;
@@ -73,29 +75,41 @@ const float* histRange = {range};
 calcHist(&img, 1, 0, Mat(), hist, 1, &histSize, &histRange);
 
 // Display histogram (code to plot histogram not included)
+
 <br>
+
 - logical arithmetics/boolean :<br>
 // Example: Perform bitwise AND between two images
 Mat img1, img2, result;
 bitwise_and(img1, img2, result);
+
 <br>
+
 - bilateral filter :<br>
 Mat filteredImage;
 bilateralFilter(img, filteredImage, 9, 75, 75);
+
 <br>
+
 - blur : <br>
 Mat blurredImage;
-GaussianBlur(img, blurredImage, Size(15, 15), 0); <br>
+GaussianBlur(img, blurredImage, Size(15, 15), 0);
+
+ <br>
 
 - filter 2D: <br>
 Mat kernel = (Mat_<float>(3,3) << -1, -1, -1, -1, 8, -1, -1, -1, -1); // Example: Edge detection kernel
 Mat filteredImage;
 filter2D(img, filteredImage, CV_8U, kernel);
+
 <br>
+
 - Gaussian filter: <br>
 Mat gaussianBlurredImage;
 GaussianBlur(img, gaussianBlurredImage, Size(5, 5), 0);
+
 <br>
+
 - sharpening : <br>
 Mat sharpeningKernel = (Mat_<float>(3,3) << 0, -1, 0, -1, 5,-1, 0, -1, 0); // Example sharpening kernel
 Mat sharpenedImage;
