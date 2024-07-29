@@ -1,7 +1,7 @@
 
 
 ***
-##### 1(Jul 23) opencv- first / ch02 / ch03
+##### 1(Jul 22) opencv- first / ch02 / ch03
 
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
@@ -28,7 +28,7 @@
 <br>
 
 ***
-##### 2(Jul 24) opencv- ch03 / ch04
+##### 2(Jul 23) opencv- ch03 / ch04
 
 - CMake : pack of orders/rules user would write. work as a translator among team members who may use different tools
 
@@ -38,7 +38,7 @@
     //Mat img2(400, 600, CV_8UC1); <br>
 
 ***
-##### 3(Jul 25) oprncv- ch04
+##### 3(Jul 24) oprncv- ch04
 
 - text : putText(image, text, origin, fontFace, fontScale, color, thickness, lineType, bottomLeftOrigin); <br>
     //putText(img, "font", Point(20, 150), FONT_HERSHEY_PLAIN, 1, red); <br>
@@ -56,6 +56,51 @@
 
 - video : int fourcc = VideoWriter::fourcc(char c1, char c2, char c3, char c4); <br>
     //int fourcc = VideoWriter::fourcc('D', 'I', 'V', 'X');
+
+***
+##### 5(Jul 25) oprncv- ch05, ch06, ch07
+- brightness: <br>
+// Example: Increase brightness by adding a constant value to each pixel
+Mat brightenedImage;
+img.convertTo(brightenedImage, -1, 1, 50); // alpha=1 (no scaling), beta=50 (brightness increase)
+<br>
+- histogram : <br>
+// Compute histogram for a grayscale image
+Mat hist;
+int histSize = 256; // Number of bins
+float range[] = {0, 256}; // Range of pixel values
+const float* histRange = {range};
+calcHist(&img, 1, 0, Mat(), hist, 1, &histSize, &histRange);
+
+// Display histogram (code to plot histogram not included)
+<br>
+- logical arithmetics/boolean :<br>
+// Example: Perform bitwise AND between two images
+Mat img1, img2, result;
+bitwise_and(img1, img2, result);
+<br>
+- bilateral filter :<br>
+Mat filteredImage;
+bilateralFilter(img, filteredImage, 9, 75, 75);
+<br>
+- blur : <br>
+Mat blurredImage;
+GaussianBlur(img, blurredImage, Size(15, 15), 0); <br>
+
+- filter 2D: <br>
+Mat kernel = (Mat_<float>(3,3) << -1, -1, -1, -1, 8, -1, -1, -1, -1); // Example: Edge detection kernel
+Mat filteredImage;
+filter2D(img, filteredImage, CV_8U, kernel);
+<br>
+- Gaussian filter: <br>
+Mat gaussianBlurredImage;
+GaussianBlur(img, gaussianBlurredImage, Size(5, 5), 0);
+<br>
+- sharpening : <br>
+Mat sharpeningKernel = (Mat_<float>(3,3) << 0, -1, 0, -1, 5,-1, 0, -1, 0); // Example sharpening kernel
+Mat sharpenedImage;
+filter2D(img, sharpenedImage, CV_8U, sharpeningKernel);
+<br>
 
 ***
 
