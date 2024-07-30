@@ -84,6 +84,7 @@ Mat img1, img2, result;
 bitwise_and(img1, img2, result);
 
 <br>
+
 ***
 
 - bilateral filter :<br>
