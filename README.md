@@ -58,6 +58,7 @@
     //int fourcc = VideoWriter::fourcc('D', 'I', 'V', 'X');
 
 ***
+
 ##### 5(Jul 25) oprncv- ch05, ch06, ch07
 - brightness: <br>
 // Example: Increase brightness by adding a constant value to each pixel
