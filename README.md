@@ -1,7 +1,7 @@
 
 
 ***
-##### 1(Jul 22) opencv- first / ch02 / ch03
+##### 1(22Jul2024) opencv- first / ch02 / ch03
 
 - openCV setting : <br>
     -  made vscode to enable github commit locally(but chose githubcodespace) <br>
@@ -28,7 +28,7 @@
 <br>
 
 ***
-##### 2(Jul 23) opencv- ch03 / ch04
+##### 2(34Jul2024) opencv- ch03 / ch04
 
 - CMake : pack of orders/rules user would write. work as a translator among team members who may use different tools
 
@@ -38,7 +38,7 @@
     //Mat img2(400, 600, CV_8UC1); <br>
 
 ***
-##### 3(Jul 24) oprncv- ch04
+##### 3(24Jul2024) oprncv- ch04
 
 - text : putText(image, text, origin, fontFace, fontScale, color, thickness, lineType, bottomLeftOrigin); <br>
     //putText(img, "font", Point(20, 150), FONT_HERSHEY_PLAIN, 1, red); <br>
@@ -59,7 +59,7 @@
 
 ***
 
-##### 5(Jul 25) oprncv- ch05, ch06, ch07
+##### 5(25Jul2024) oprncv- ch05, ch06, ch07
 - brightness: <br>
 // Example: Increase brightness by adding a constant value to each pixel
 Mat brightenedImage;
